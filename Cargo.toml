@@ -9,3 +9,7 @@ edition = "2018"
 [dependencies]
 image = "> 0.23.0"
 rand = "> 0.0.1"
+debug_print = ">= 1.0.0"
+[[bin]]
+name = "generatemaze"
+path = "src/main.rs"
